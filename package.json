@@ -1,0 +1,28 @@
+{
+  "name": "cron-test",
+  "version": "1.0.0",
+  "description": "Node.js library for testing a date against a cron expression",
+  "main": "lib/parser.js",
+  "keywords": [
+    "cron",
+    "crontab",
+    "parser"
+  ],
+  "author": "Ben Lewis",
+  "contributors": [],
+  "license": "MIT",
+  "dependencies": {
+    "is-nan": "^1.2.1",
+    "moment-timezone": "^0.5.0"
+  },
+  "devDependencies": {
+    "sinon": "^1.17.7",
+    "tap": "^0.5.0"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "browser": {
+    "fs": false
+  }
+}
